@@ -8,6 +8,7 @@
 body {
 	color: black;
 	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin: 10px;
 }
 
 h1 {
@@ -16,11 +17,16 @@ h1 {
 	margin: 15px;
 }
 
+section {
+	float: left;
+}
+
 article {
 	border: 1px solid black;
 	padding: 10px;
 	background-color: #929292;
 	position: relative;
+	margin: 10px;
 }
 
 header {
@@ -58,10 +64,6 @@ p {
 /* styling for mobile devices */
 
 @media (max-width: 767px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-    padding: 10px 25px 10px 25px;
-  }
   .col-md-1 {
     width: 8.33%;
   }
@@ -103,10 +105,6 @@ p {
 /* styling for tablet devices */
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .col-td-1, .col-td-2, .col-td-3, .col-td-4, .col-td-5, .col-td-6, .col-td-7, .col-td-8, .col-td-9, .col-td-10, .col-td-11, .col-td-12 {
-    float: left;
-	padding: 10px;
-  }
   .col-td-1 {
     width: 8.33%;
   }
@@ -148,10 +146,6 @@ p {
 /* styling for desktop devices */
 
 @media (min-width: 992px) {
-  .col-dd-1, .col-dd-2, .col-dd-3, .col-dd-4, .col-dd-5, .col-dd-6, .col-dd-7, .col-dd-8, .col-dd-9, .col-dd-10, .col-dd-11, .col-dd-12 {
-    float: left;
-	padding: 10px;
-  }
   .col-dd-1 {
     width: 8.33%;
   }
