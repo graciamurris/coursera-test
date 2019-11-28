@@ -3,19 +3,22 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+
+body {
+	color: black;
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 h1 {
-	color: black;
 	font-size: 1.75em;
 	text-align: center;
 	margin: 15px;
 }
 
 .dish {
-	padding: 10px;
 	border: 1px solid black;
+	padding: 10px;
 	background-color: #929292;
 	position: relative;
 }
@@ -27,7 +30,7 @@ section {
 	padding: 2px 30px 2px 30px;
 	position: absolute;
 	top: -1px;
-	right: -1px;
+	right: -1px
 }
 
 #chicken {
